@@ -6,6 +6,8 @@ This is app completely independent and uses VUE framework to query the data from
 
 To get started, install all the NPM dependency packages by typing:
 
+![screenshot](screenshot.png)
+
 ```
 npm install
 ```

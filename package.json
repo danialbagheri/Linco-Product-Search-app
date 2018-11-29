@@ -16,6 +16,8 @@
     "webpack-dev-server": "^3.1.10"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-vue": "^4.7.1",
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2"
   }

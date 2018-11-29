@@ -1,0 +1,59 @@
+.lincoLogo {
+  width: 250px;
+}
+.searchForm input[type="text"] {
+  width: 400px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin: 15px 0 15px 8px;
+  font-size: 18px;
+}
+.searchForm input[type="text"]:focus {
+  background-color: rgb(124, 163, 220);
+  color: #fff;
+}
+.searchForm button {
+  padding: 5px 20px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.searchForm button:hover {
+  background-color: blue;
+  color: #fff;
+}
+.imageLink {
+  text-decoration: none;
+  color: black;
+}
+.imageLink p {
+  font-size: 14px;
+  text-align: center;
+}
+.productsContainer {
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+.imageResult {
+  display: inline-block;
+}
+.imageLink img {
+  width: 140px;
+  padding-right: 10px;
+}
+.imageLink:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  color: blue;
+}
+
+@media only screen and (max-width: 450px) {
+  .searchForm input[type="text"] {
+    width: 100%;
+    margin: 15px 8px 15px 8px;
+    font-size: 15px;
+  }
+  .searchForm button {
+    margin: 0px 8px;
+  }
+}
